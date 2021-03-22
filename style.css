@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/380545.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+.clock-body{
+    border: 1px solid red;
+    border-style: none;
+   height: 20vw;
+    width: 100%;
+    display: flex;
+    
+   
+   
+}
+h1{
+    font-family:'Brush Script MT', cursive;
+    border: 1vw solid rgb(255, 0, 0);
+    font-size: 8vw;
+    width: 40vw;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    border-radius: 5vw 0.5vw 5vw;
+    
+    
+   
+}
+
+.hours{
+    color: rgb(250, 150, 1);
+   
+}
+
+.minuts{
+    color: rgb(202, 0, 185);
+  
+}
+.seconds{
+    color: darkorchid;
+    font-size: 5vw;
+  
+}
+.colon{
+    color: rgb(255, 0, 0);
+}
+
+
+.week{
+    color: rgb(239, 255, 20);
+    font-size:3vw;
+    float: left;
+    margin-left: 5vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+.date{
+    color: rgb(20, 130, 255);
+    font-size:3vw;
+    float: left;
+    margin-left: 3vw;
+}
+
+
+.name{
+    color: #9eff02;
+    font-size:4vw;
+    float: right;
+    margin-right: 5vw;
+}
+
